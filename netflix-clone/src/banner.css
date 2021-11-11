@@ -3,3 +3,9 @@
     object-fit: contain;
     height: 440px;
 }
+
+.banner_contents{
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190px;
+}
