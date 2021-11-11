@@ -1,6 +1,11 @@
 import React from 'react'
+import { useEffect } from 'react/cjs/react.production.min';
 import './Nav.css';
 function Nav() {
+
+    useEffect( () =>{
+    
+    },[]);
     return (
         <div class="nav">
             <img 
