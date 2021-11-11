@@ -2,10 +2,11 @@ import React from 'react';
 import './App.css';
 import Row from './Row';
 import requests from './requests';
+import Banner from './Banner';
 function App() {
   return (
     <div className="App">
-       <h1>Hey This NetFLix Clone</h1>
+      <Banner />
        <Row 
        
        title="MetFlix Orginals" 
