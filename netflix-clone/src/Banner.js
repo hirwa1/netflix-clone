@@ -18,9 +18,30 @@ function Banner() {
         }
         fetchData();
     },[] );
+
+    console.log(movie);
     return (
-        <header>
-            
+        <header 
+        className="banner"
+        style={{
+            backgroundSize: "cover",
+            backgroundImage: `url(
+                "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
+                )`,
+            backgroundPosition: "center center",
+
+        }}
+        >
+            <div className="banner_contents">
+              <h1>
+                  {movie?.title || movie?.name || movie?.original_name}
+              </h1>
+
+              <div className="banner_buttons">
+                <button className="banner_button">Play </button>
+                <button className="banner_button">My List</button>
+              </div>
+            </div>
         </header>
     )
 }
