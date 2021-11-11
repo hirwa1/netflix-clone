@@ -9,7 +9,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
 
     const [movies, setMovies] = useState([]);
-    const [trailerUrl, setTrailerUrl] =useState("");
+    const [trailerUrl, setTrailerUrl] = useState("");
 
     // SNipet code 
     useEffect( () =>{
@@ -45,7 +45,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
         }
     };
 
-    console.log(movies);
+     
     return (
         <div className="row">
            <h2>{title}</h2>
@@ -56,7 +56,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
             {movies.map(movie => (
                 <img 
                       key={movie.id}
-                      onclick={() => handleClick(movie)}
+                      onClick={() => handleClick(movie)}
                       className="row_poster"
                       src={`${base_url}${ isLargeRow ? movie.poster_path : movie.backdrop_path}`}
                        alt={movie.name} /> 
