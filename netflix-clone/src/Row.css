@@ -1,6 +1,5 @@
-
-*{
-    margin:0;
+.row{
+    margin-left:20px;
 }
 .row_posters{
     display: flex;
@@ -24,7 +23,7 @@
     
 }
 .row_posterLarge{
-    max-height:250px;
+    max-height: 250px;
 
 }
 .row_posterLarge{
