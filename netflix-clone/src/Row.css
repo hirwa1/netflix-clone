@@ -23,3 +23,11 @@
     transform: scale(1.08);
     
 }
+.row_posterLarge{
+    max-height:250px;
+
+}
+.row_posterLarge{
+    transform: scale(1.09);
+    opacity: 1; 
+}
