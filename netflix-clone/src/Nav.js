@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Nav.css';
 function Nav() {
     return (
         <div class="nav">
@@ -14,7 +14,7 @@ function Nav() {
              scr
         src="
         https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMti6Y58F9U28BKZAOQMWDh9auJ5gfJahe5uKYMjr0kSNaXP4MZYkvDomyRUVKOfiPT5g&usqp=CAU"
-            className="nav_logo"
+            className="nav_avatar"
             alt="Netflix Logo"
             />
         </div>
