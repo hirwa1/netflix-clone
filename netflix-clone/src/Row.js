@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-function Row() {
+function Row({ title}) {
     return (
         <div>
-            
+           <h2>{title}</h2>
+
+            {/* contaniner -> poster */}
+
+          
         </div>
     )
 }
