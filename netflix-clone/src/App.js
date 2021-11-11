@@ -9,7 +9,7 @@ function App() {
       <Banner />
        <Row 
        
-       title="MetFlix Orginals" 
+       title="NetFlix Orginals" 
        fetchUrl={requests.fetchNetflixOriginals}
        isLargeRow
         />
