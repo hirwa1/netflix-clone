@@ -1,12 +1,12 @@
 .row{
-    margin-left:20px;
+    
     color: white;
+    width: 100%;
 }
 .row_posters{
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
-    padding: 20px;
 }
 .row_posters::-webkit-scrollbar{
     display: none;
