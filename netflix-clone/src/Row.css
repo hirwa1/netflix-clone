@@ -24,10 +24,12 @@
     
 }
 .row_posterLarge{
-    max-height: 250px;
+    width: 100%;
+    
+    object-fit: contain;
 
 }
-.row_posterLarge{
-    transform: scale(1.09);
+.row_posterLarge:hover{
+    transform: scale(1.08);
     opacity: 1; 
 }
